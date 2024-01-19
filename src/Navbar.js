@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaBars } from 'react-icons/fa';
 import Switch from 'react-switch';
 import { useAppContext } from './AppContext';
+import Perfil from './Perfil.jpg'
 
 const NavbarWrapper = styled.nav`
   background-color: #333;
@@ -146,7 +147,7 @@ const Navbar = () => {
       {isNavbarVisible && (
         <NavbarWrapper>
           <ProfileImageWrapper>
-            <ProfileImage src="https://i.pinimg.com/236x/a9/44/5d/a9445d4435222d7f4783609714b99fb3.jpg" alt="Foto de perfil" />
+            <ProfileImage src={Perfil} alt="Foto de perfil" />
           </ProfileImageWrapper>
           <Logo>Sergio Eduardo Solis Hernandez</Logo>
           <Subtitle>{state.language === 'en' ? 'Developer Jr' : 'Desarrollador Jr'}</Subtitle>
@@ -169,9 +170,9 @@ const Navbar = () => {
             </NavLink>
           </NavLinks>
           <SocialIcons>
-            <SocialIcon href="https://www.facebook.com/sergio.solis.9843/">
+            {/* <SocialIcon href="https://www.facebook.com/sergio.solis.9843/">
               <FaFacebook />
-            </SocialIcon>
+            </SocialIcon> */}
             <SocialIcon href="https://twitter.com/sergiosolis750/">
               <FaTwitter />
             </SocialIcon>

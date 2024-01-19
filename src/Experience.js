@@ -84,8 +84,8 @@ const Experience = () => {
       with the use of C#, Net Framework, several programminglibraries, and the use of
       SQL Server databases.
       ` : 
-      `Durante mi estancia en Flex, Ayude a crear Daschboards y programas de diferentes tipos,
-      con el uso de C#, Net Frameworl, varias librerias de programación, y el uso de bases de datos en SQL.
+      `Durante mi estancia en Flex, Ayude a crear Dashboards y programas de diferentes tipos,
+      con el uso de C#, Net Framework, varias librerias de programación, y el uso de bases de datos en SQL.
       `,
     },
     {
