@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/MiPortafolioWeb/static/css/main.e6c13ad2.css",
-    "main.js": "/MiPortafolioWeb/static/js/main.56f65d70.js",
+    "main.js": "/MiPortafolioWeb/static/js/main.c6285e0c.js",
     "static/media/Background1.jpg": "/MiPortafolioWeb/static/media/Background1.1325155fb8205347c4ef.jpg",
-    "static/media/Perfil.jpg": "/MiPortafolioWeb/static/media/Perfil.e3eeab3f3659db3b215a.jpg",
     "static/media/logoNodejs.png": "/MiPortafolioWeb/static/media/logoNodejs.d6153fa85318a68d9bca.png",
     "static/media/CV_SESH.pdf": "/MiPortafolioWeb/static/media/CV_SESH.60bd0ca688b9df269c59.pdf",
     "static/media/logoAngular.png": "/MiPortafolioWeb/static/media/logoAngular.17ca640487494f28400f.png",
@@ -17,10 +16,10 @@
     "static/media/logoNextjs.png": "/MiPortafolioWeb/static/media/logoNextjs.48ddc8121a0fcb543d64.png",
     "index.html": "/MiPortafolioWeb/index.html",
     "main.e6c13ad2.css.map": "/MiPortafolioWeb/static/css/main.e6c13ad2.css.map",
-    "main.56f65d70.js.map": "/MiPortafolioWeb/static/js/main.56f65d70.js.map"
+    "main.c6285e0c.js.map": "/MiPortafolioWeb/static/js/main.c6285e0c.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.56f65d70.js"
+    "static/js/main.c6285e0c.js"
   ]
 }
