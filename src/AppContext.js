@@ -4,6 +4,7 @@ import React, { createContext, useContext, useReducer } from 'react';
 // Definir el estado inicial
 const initialState = {
   language: 'es', // Estado inicial en español
+  selectedOption: 'Option1', // Añadir la opción seleccionada en el navbar
 };
 
 // Crear el contexto
@@ -30,6 +31,8 @@ const appReducer = (state, action) => {
   switch (action.type) {
     case 'CHANGE_LANGUAGE':
       return { ...state, language: action.payload };
+    case 'SELECT_NAVBAR_OPTION':
+      return { ...state, selectedOption: action.payload };
     default:
       return state;
   }
