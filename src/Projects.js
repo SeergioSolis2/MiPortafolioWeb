@@ -41,6 +41,7 @@ const Projects = () => {
     width: '90%', // Ajustado para un ancho más pequeño
     maxWidth: '1200px', // Limita el ancho máximo para evitar que se expanda demasiado
     margin: '0 auto', // Centra en pantallas más grandes
+    overflowx:'auto',
   };
 
   const projectsContainerStyle = {
