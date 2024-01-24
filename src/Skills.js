@@ -15,29 +15,31 @@ import logoSQL from './logos/logoSQL.png';
 
 
 const Skills = () => {
-  const containerStyle = {
-    position: 'relative',
-    width: '100%',
-    height: '92vh',
-    top: '2vh',
-    // border: '5px solid black',
-    boxSizing: 'border-box',
-    overflow: 'hidden',
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  };
-
-  const contentStyle = {
-    position: 'absolute',
-    overflowY: 'auto', // Añadido scroll vertical
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    textAlign: 'center',
-    color: 'black',
-    width: '100%',
-  };
+    const containerStyle = {
+        position: 'relative',
+        width: '100%',
+        height: '92vh',
+        top: '2vh',
+        boxSizing: 'border-box',
+        overflow: 'auto',
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      };
+      
+      const contentStyle = {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        textAlign: 'center',
+        color: 'black',
+        width: '90%',
+        maxWidth: '1200px',
+        margin: '0 auto',
+        overflowX: 'auto',
+        overflowY: 'auto', // Añadido para permitir el desplazamiento vertical
+      };
 
   const skillsContainerStyle = {
     display: 'flex',
@@ -47,12 +49,14 @@ const Skills = () => {
   };
 
   const skillStyle = {
-    width: '18%', // Ajusta el ancho del div del lenguaje
-    padding: '10px', // Ajusta el padding del div del lenguaje
+    width: '100%',
+    maxWidth: '400px',
+    marginBottom: '20px',
+    padding: '20px',
     borderRadius: '10px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    margin: '10px',
     boxSizing: 'border-box',
+    // wordWrap: 'break-word',
   };
 
   const barContainerStyle = {
@@ -82,6 +86,7 @@ const Skills = () => {
   };
   
   const fontP = {
+    wordWrap: 'break-word',
     color: 'white',
     margin: '10px',
     fontSize: '20px',
@@ -116,7 +121,6 @@ const Skills = () => {
 
   return (
     <div style={containerStyle}>
-      <div style={contentStyle}>
         <div style={skillsContainerStyle}>
           {chunkedSkills.map((row, rowIndex) => (
             <div key={rowIndex} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: '100%' }}>
@@ -134,7 +138,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </div>
+
   );
 };
 

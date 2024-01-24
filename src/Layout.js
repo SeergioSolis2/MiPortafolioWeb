@@ -12,6 +12,7 @@ import Contact from './Contact';
 const LayoutWrapper = styled.div`
   display: flex;
   height: 100vh;
+  overflow: hidden;
 `;
 
 

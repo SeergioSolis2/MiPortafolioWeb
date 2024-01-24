@@ -40,6 +40,7 @@ const Contact = () => {
     wordWrap: 'break-word',
     margin: '10px',
     textShadow: '2px 2px 4px black',
+    wordWrap: 'break-word',
   };
 
   const fontP = {
@@ -47,6 +48,7 @@ const Contact = () => {
     margin: '10px',
     fontSize: '20px',
     textShadow: '1px 1px 2px black',
+    wordWrap: 'break-word',
   };
 
   const downloadLinkStyle = {

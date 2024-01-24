@@ -8,55 +8,56 @@ const Experience = () => {
     width: '100%',
     height: '92vh',
     top: '2vh',
-    // border: '5px solid black',
     boxSizing: 'border-box',
-    overflow: 'hidden',
+    overflow: 'auto',
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
+  
 
   const contentStyle = {
-    overflow: 'auto',
     position: 'absolute',
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
     textAlign: 'center',
     color: 'black',
-    width: '80%', // Ajuste del ancho para pantallas más grandes
-    maxWidth: '1200px', // Ancho máximo para pantallas más pequeñas
-    margin: '0 auto', // Centrar en pantallas más grandes
+    width: '90%',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    overflowX: 'auto',
+    overflowY: 'auto',
   };
 
   const cardsContainerStyle = {
     display: 'flex',
-    flexWrap: 'wrap', // Permite que los elementos se envuelvan en pantallas más pequeñas
-    justifyContent: 'space-around',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
     marginTop: '20px',
   };
 
   const cardStyle = {
-    width: '30%', // Ancho ajustado para pantallas más grandes
-    minWidth: '300px', // Ancho mínimo para pantallas más pequeñas
+    width: '100%',
+    maxWidth: '400px',
     marginBottom: '20px',
     padding: '20px',
     borderRadius: '10px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    flex: '1 0 30%', // Distribuir espacio de manera uniforme en pantallas más grandes
+    boxSizing: 'border-box',
   };
 
   const fontH1 = {
     color: 'white',
     margin: '10px',
-    textShadow: '2px 2px 4px black', // Agrega contorno negro al texto
+    textShadow: '2px 2px 4px black',
   };
-  
+
   const fontP = {
     color: 'white',
     margin: '10px',
-    fontSize: '20px',
-    textShadow: '1px 1px 2px black', // Agrega contorno negro al texto
+    fontSize: '16px', // Reducir el tamaño de fuente para dispositivos móviles
+    textShadow: '1px 1px 2px black',
   };
   const { state, dispatch } = useAppContext();
 
@@ -109,7 +110,7 @@ const Experience = () => {
 
   return (
     <div style={containerStyle}>
-      <div style={contentStyle}>
+
         <div style={cardsContainerStyle}>
           {workExperiences.map((experience, index) => (
             <div key={index} style={cardStyle}>
@@ -120,7 +121,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
-    </div>
+
   );
 };
 

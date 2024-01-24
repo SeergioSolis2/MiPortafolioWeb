@@ -25,12 +25,12 @@ const Projects = () => {
     height: '92vh',
     top: '2vh',
     boxSizing: 'border-box',
-    overflow: 'hidden',
+    overflow: 'auto',
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
-
+  
   const contentStyle = {
     position: 'absolute',
     top: '50%',
@@ -42,13 +42,22 @@ const Projects = () => {
     maxWidth: '1200px',
     margin: '0 auto',
     overflowX: 'auto',
+    overflowY: 'auto', // Añadido para permitir el desplazamiento vertical
   };
 
   const projectsContainerStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(20em, 1fr))', // Unidad relativa 'em'
+    gridTemplateColumns: 'repeat(auto-fill, minmax(20em, 1fr))', // Ajuste para pantallas grandes
+  
     gap: '20px',
     marginTop: '20px',
+  
+    '@media screen and (max-width: 600px)': {
+      gridTemplateColumns: '1fr', // Cambio para pantallas más pequeñas
+    },
+    '@media screen and (min-width: 601px) and (max-width: 768px)': {
+      gridTemplateColumns: 'repeat(auto-fill, minmax(15em, 1fr))', // Ajuste para pantallas medianas
+    },
   };
 
   const projectStyle = {
@@ -69,13 +78,14 @@ const Projects = () => {
     margin: '10px',
     fontSize: '20px',
     textShadow: '1px 1px 2px black',
+    wordWrap: 'break-word',
   };
 
   const { state, dispatch } = useAppContext();
 
   return (
     <div style={containerStyle}>
-      <div style={contentStyle}>
+      
         <h1 style={titleStyle}>{state.language === "en" ? "GitHub Repositories" : "Repositorios de Github"}</h1>
         <div style={projectsContainerStyle}>
           {projects.map((project) => (
@@ -89,7 +99,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
+
   );
 };
 
