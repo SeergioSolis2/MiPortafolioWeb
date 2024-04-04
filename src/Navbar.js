@@ -146,7 +146,7 @@ const Navbar = () => {
       {isNavbarVisible && (
         <NavbarWrapper>
           <ProfileImageWrapper>
-            <ProfileImage src="https://media.licdn.com/dms/image/D4E03AQGcu23nT3cKdw/profile-displayphoto-shrink_200_200/0/1705700093899?e=1710979200&v=beta&t=6jHfmZ-2ORiOOCZcUaZ5wwSdy1c4f-7x0BKViSk35zA" alt="Foto de perfil" />
+            <ProfileImage src="Perfil.jpg" alt="Foto de perfil" />
           </ProfileImageWrapper>
           <Logo>Sergio Eduardo Solis Hernandez</Logo>
           <Subtitle>{state.language === 'en' ? 'Developer Jr' : 'Desarrollador Jr'}</Subtitle>

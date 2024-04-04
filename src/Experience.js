@@ -56,7 +56,7 @@ const Experience = () => {
   const fontP = {
     color: 'white',
     margin: '10px',
-    fontSize: '16px', // Reducir el tamaño de fuente para dispositivos móviles
+    fontSize: '20px', // Reducir el tamaño de fuente para dispositivos móviles
     textShadow: '1px 1px 2px black',
   };
   const { state, dispatch } = useAppContext();

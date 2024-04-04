@@ -2,6 +2,7 @@ import React from 'react';
 import backgroundImage from './Background1.jpg'; // Cambia la imagen de fondo según sea necesario
 import { useAppContext } from './AppContext';
 import CV from './CV_SESH.pdf';
+import CV_ESP from './CV_SESH_ESP.pdf'
 
 const Contact = () => {
   const contactContainerStyle = {
@@ -74,8 +75,8 @@ const Contact = () => {
           {/* Otros detalles de contacto según sea necesario */}
           <a
             style={downloadLinkStyle}
-            href={CV} 
-            download="CV_SESH.pdf"
+            href={state.language === 'en' ? CV : CV_ESP} 
+            download= {state.language === 'en' ? 'CV_SESH.pdf' : 'CV_SESH_ESP.pdf'}
           >
             {state.language === 'en' ? 'Download CV' : 'Descargar CV'}
           </a>
