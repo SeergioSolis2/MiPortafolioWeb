@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MiPortafolioWeb/static/css/main.e6c13ad2.css",
-    "main.js": "/MiPortafolioWeb/static/js/main.73314a0d.js",
+    "main.js": "/MiPortafolioWeb/static/js/main.f2b7b0ae.js",
     "static/media/Background1.jpg": "/MiPortafolioWeb/static/media/Background1.1325155fb8205347c4ef.jpg",
     "static/media/logoNodejs.png": "/MiPortafolioWeb/static/media/logoNodejs.d6153fa85318a68d9bca.png",
     "static/media/CV_SESH_ESP.pdf": "/MiPortafolioWeb/static/media/CV_SESH_ESP.90f00940e36d4ab803ab.pdf",
@@ -17,10 +17,10 @@
     "static/media/logoNextjs.png": "/MiPortafolioWeb/static/media/logoNextjs.48ddc8121a0fcb543d64.png",
     "index.html": "/MiPortafolioWeb/index.html",
     "main.e6c13ad2.css.map": "/MiPortafolioWeb/static/css/main.e6c13ad2.css.map",
-    "main.73314a0d.js.map": "/MiPortafolioWeb/static/js/main.73314a0d.js.map"
+    "main.f2b7b0ae.js.map": "/MiPortafolioWeb/static/js/main.f2b7b0ae.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.73314a0d.js"
+    "static/js/main.f2b7b0ae.js"
   ]
 }
