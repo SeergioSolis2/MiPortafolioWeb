@@ -1,0 +1,88 @@
+/* Reset básico para asegurar consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aseguramos que el body ocupe todo el alto de la pantalla */
+html, body, #root {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Contenido centrado */
+.content {
+    /* background: #f0f0f0; */
+    padding: 20px;
+    /* border-radius: 8px; */
+    backdrop-filter: blur(10px); /* Agrega un efecto de desenfoque de fondo */
+    max-width: 100%;
+    height: max-content;
+    width: 1400px; /* Puedes ajustar este valor según tus necesidades */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .icon-container > * {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .content {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .icon-container {
+        flex-direction: column;
+    }
+
+    .icon-container > * {
+        margin: 10px 0;
+        font-size: 1em;
+    }
+}
