@@ -53,16 +53,17 @@ const Presentation = () => {
   const Name_es = "Sergio Eduardo Solis Hernandez , Desarrollador";
   const Name_en = "Sergio Eduardo Solis Hernandez , Developer";
   const Description_es = `
-    Ingeniero en sistemas computacionales recién graduado con una formación académica adecuada y
-    con entusiasmo para aplicar mis conocimientos en un ambiente profesional. Con ganas de contribuir,
-    evolucionar y crear un impacto positivo.
+    Con dos años de experiencia en el ámbito de la Ingeniería en Sistemas Computacionales, 
+    he desarrollado una sólida formación práctica y teórica, aplicando mis conocimientos en proyectos reales y desafiantes. 
+    Mi trayectoria profesional me ha permitido contribuir significativamente a diversas iniciativas, mejorando mis habilidades y adaptándome rápidamente 
+    a las necesidades del entorno laboral. Estoy entusiasmado por seguir evolucionando y tener un impacto positivo en la industria, aportando soluciones innovadoras y eficientes.
   `;
   const Description_en = `
-    Recent Computer Systems Engineering graduate 
-    with a strong academic background and 
-    enthusiasm for applying knowledge in a 
-    professional setting. Eager to contribute, evolve, 
-    and make a positive impact.
+   With two years of experience in the field of Computer Systems Engineering, 
+   I have developed a solid practical and theoretical foundation, applying my knowledge to real 
+   and challenging projects. My professional journey has allowed me to make significant contributions 
+   to various initiatives, enhancing my skills and quickly adapting to the demands of the work environment. 
+   I am eager to continue evolving and making a positive impact in the industry by delivering innovative and efficient solutions.
   `;
 
   return (

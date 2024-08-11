@@ -43,7 +43,7 @@ const Experience = () => {
   const workExperiences = [
     {
       title: state.language === "en" ? "C# DEVELOPER" : "DESARROLLADOR C#",
-      company: "FLEXTRONICS AGUASCALIENTES",
+      company: "FLEXTRONICS AGUASCALIENTES (JANUARY 2022 - JUNE 2023)",
       description:
         state.language === "en"
           ? `During my time at Flex, I helped create dashboards and programs of various types using C#, .Net Framework, 
@@ -72,7 +72,7 @@ const Experience = () => {
         state.language === "en"
           ? "REACT DEVELOPER JR"
           : "DESARROLLADOR JR REACT",
-      company: "INCOTECH SYSTEM",
+      company: "INCOTECH SYSTEM (JULY 2023 - MARCH 2024) ",
       description:
         state.language === "en"
           ? `During my time as a React Developer from July 2023 to the present, 
@@ -110,7 +110,7 @@ const Experience = () => {
         state.language === "en"
           ? "FULL STACK DEVELOPER"
           : "DESARROLLADOR FULL STACK",
-      company: "HAT MEDIA SERVICES ",
+      company: "HAT MEDIA SERVICES (APRIL 2024 - JULY 2024)",
       description:
         state.language === "en"
           ? `As a Full Stack Developer at HAT Media Services, I have played a pivotal role in designing and developing advanced web applications
@@ -133,7 +133,7 @@ const Experience = () => {
         state.language === "en"
           ? "JAVA DEVELOPER"
           : "DESARROLLADOR JAVA",
-      company: "INEGI",
+      company: "INEGI (JUNE 2024 - NOW)",
       description:
         state.language === "en"
           ? `In my role as a Java Developer at INEGI, I am working the 2025 census project,
