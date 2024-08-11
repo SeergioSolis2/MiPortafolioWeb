@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MiPortafolioWeb/static/css/main.86bec9e3.css",
-    "main.js": "/MiPortafolioWeb/static/js/main.d6da01b7.js",
+    "main.js": "/MiPortafolioWeb/static/js/main.77609546.js",
+    "static/media/CV_SESH_ESP.pdf": "/MiPortafolioWeb/static/media/CV_SESH_ESP.cb2e1951e4eab42267c0.pdf",
+    "static/media/CV_SESH.pdf": "/MiPortafolioWeb/static/media/CV_SESH.785a500df2995142b6c1.pdf",
     "static/media/rs.svg": "/MiPortafolioWeb/static/media/rs.b16c22033ad1a395b009.svg",
     "static/media/sh-ac.svg": "/MiPortafolioWeb/static/media/sh-ac.2f733db97b52ef32314b.svg",
     "static/media/logoNodejs.png": "/MiPortafolioWeb/static/media/logoNodejs.d6153fa85318a68d9bca.png",
-    "static/media/CV_SESH_ESP.pdf": "/MiPortafolioWeb/static/media/CV_SESH_ESP.90f00940e36d4ab803ab.pdf",
-    "static/media/CV_SESH.pdf": "/MiPortafolioWeb/static/media/CV_SESH.799e8ca6f7119f78876a.pdf",
     "static/media/bo.svg": "/MiPortafolioWeb/static/media/bo.2df6927ff85d4a69996b.svg",
     "static/media/mx.svg": "/MiPortafolioWeb/static/media/mx.c23bb54608487157345e.svg",
     "static/media/es.svg": "/MiPortafolioWeb/static/media/es.e3471d73993a1d499c2a.svg",
@@ -286,10 +286,10 @@
     "static/media/pe.svg": "/MiPortafolioWeb/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/MiPortafolioWeb/static/media/id.f624e2c8444a7794b357.svg",
     "main.86bec9e3.css.map": "/MiPortafolioWeb/static/css/main.86bec9e3.css.map",
-    "main.d6da01b7.js.map": "/MiPortafolioWeb/static/js/main.d6da01b7.js.map"
+    "main.77609546.js.map": "/MiPortafolioWeb/static/js/main.77609546.js.map"
   },
   "entrypoints": [
     "static/css/main.86bec9e3.css",
-    "static/js/main.d6da01b7.js"
+    "static/js/main.77609546.js"
   ]
 }
